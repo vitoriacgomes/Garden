@@ -1,7 +1,6 @@
 import React from 'react';
 import folhalogo from "../../img/folha.png";
 import { RiPlantLine } from "react-icons/ri";
-import plantasuspensa from "../../img/planta-suspensa.png"
 
 const Menu = () => {
   return (

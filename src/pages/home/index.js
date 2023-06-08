@@ -1,12 +1,16 @@
 import React from 'react'
 import inspo from "../../img/horta-na-cozinha.jpg"
+import manjericao from "../../img/manjericão-no-vazo.png"
+import plantanamao  from "../../img/planta-crescendo.jpg"
+import morangojardim from "../../img/morango.jpg"
+import fundoplantas from "../../img/fundo de plantas.jpg"
 
 const Home = () => {
   return (
     <div>
 
         <section className="home-1 text-gray-600 body-font">
-            <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div className="container-home mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div className="texto-1 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">Nós preenchemos 
                         <br className="title-font-2 hidden lg:inline-block"/> sua casa com plantas
@@ -48,10 +52,6 @@ const Home = () => {
                     </h1>
                     <p class="desc-2 mb-8 leading-relaxed">Cuidamos dos nossos produtos desde o estagio de semente, até chegar na sua mão. Cada planta precisa de cuidados 
                     especificos para se manter saudavel e bonita, e nos fazemos questao de participar desse processo.</p>
-                    <div class="flex justify-center">
-                        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-                    </div>
                 </div>
             </div>
         </section>
@@ -62,9 +62,14 @@ const Home = () => {
                     <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">Vamos
                         <br className="title-font-2 hidden lg:inline-block"/> as compras
                     </h1>
-                    <p className="desc-1 mb-8 leading-relaxed">Olhe nosso catalogo de produtos e adquira as suas ervas, flores e folhagens favoritas</p>
+                    <p className="desc-1 mb-8 leading-relaxed">Temos ervas, perfeitas pra ficar em vazinhos na sua cozinha, ajudando a deixar suas refeições ainda mais saborosas
+                    Além disso, temos as mais lindas folhagens e flores para preencher da sua sala de estar, até quartos e banheiros. </p>
+                    <img className='img-plantas-crescendo-3' src={fundoplantas} width={500}/>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"></div>
+                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                    <img className='img-plantas-crescendo-1' src={plantanamao}/>
+                    <img className='img-plantas-crescendo-2' src={morangojardim}/>
+                </div>
             </div>
         </section>
 
