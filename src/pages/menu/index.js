@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import folhalogo from "../../img/folha.png";
 import { RiPlantLine } from "react-icons/ri";
 
-const Menu = () => {
+const Menu = ({onProdutosButtonClick}) => {
   return (
     <div className='container menu '>
         <header className="nav-bar">
@@ -14,7 +14,7 @@ const Menu = () => {
                 <nav className="nav- md:ml-auto flex flex-wrap items-center justify-center">
                     <button className="mr-5">Home</button>
                     <button className="mr-5 ">Empresa</button>
-                    <button className="mr-5 ">Produtos</button>
+                    <button className="mr-5 " onClick={onProdutosButtonClick}>Produtos</button>
                     <button className="mr-5 ">Sobre</button>
                     <button className='plant-icon'> <RiPlantLine/> </button>
                 </nav>

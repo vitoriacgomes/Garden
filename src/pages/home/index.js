@@ -1,13 +1,13 @@
 import React from 'react'
 import inspo from "../../img/horta-na-cozinha.jpg"
-import manjericao from "../../img/manjericão-no-vazo.png"
 import plantanamao  from "../../img/planta-crescendo.jpg"
 import morangojardim from "../../img/morango.jpg"
 import fundoplantas from "../../img/fundo de plantas.jpg"
+import plant1 from "../../img/feey.png"
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
 
         <section className="home-1 text-gray-600 body-font">
             <div className="container-home mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
